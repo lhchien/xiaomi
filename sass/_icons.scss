@@ -1,0 +1,144 @@
+/* Sass Document */
+
+@font-face {
+font-family: 'FontAwesome';
+src: url('../sass/Fonts-icons/fontawesome-webfont.eot?v=4.3.0');
+src: url('../sass/Fonts-icons/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+url('../sass/Fonts-icons/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+url('../sass/Fonts-icons/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+url('../sass/Fonts-icons/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+font-weight: normal;
+font-style: normal
+}
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('../sass/Fonts-icons/glyphicons-halflings-regular.eot?v=4.3.0');
+src: url('../sass/Fonts-icons/glyphicons-halflings-regular.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+url('../sass/Fonts-icons/glyphicons-halflings-regular.woff?v=4.3.0') format('woff'),
+url('../sass/Fonts-icons/glyphicons-halflings-regular.ttf?v=4.3.0') format('truetype'),
+url('../sass/Fonts-icons/glyphicons-halflings-regular.svg?v=4.3.0#fontawesomeregular') format('svg');
+font-weight: normal;
+font-style: normal
+}
+
+@font-face {
+  font-family: "Material Design Icons";
+  src: url("../sass/Fonts-icons/materialdesignicons-webfont.eot?v=1.9.32");
+  src: url("../sass/Fonts-icons/materialdesignicons-webfont.eot?#iefix&v=1.9.32") format("embedded-opentype"), 
+  url("../sass/Fonts-icons/materialdesignicons-webfont.woff2?v=1.9.32") format("woff2"), 
+  url("../sass/Fonts-icons/materialdesignicons-webfont.woff?v=1.9.32") format("woff"),
+  url("../sass/Fonts-icons/materialdesignicons-webfont.ttf?v=1.9.32") format("truetype"), 
+  url("../sass/Fonts-icons/materialdesignicons-webfont.svg?v=1.9.32#materialdesigniconsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/* ==== css Icons ==== */
+i { display: inline-block; text-align: center;vertical-align: middle;    cursor: pointer;    line-height: 24px;}
+.mdi:before { font-size: 24px;}
+.mdi:before, .mdi-set { display: inline-block;    font: normal normal normal 24px/1 "Material Design Icons"; font-size: inherit;    text-rendering: auto;    line-height: inherit;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;}
+
+
+.mdi-autorenew:before {  content: "\F06A"; }
+
+.mdi-refresh:before { content: "\F450";}
+.mdi-account:before { content: "\F004"; }
+.mdi-cart:before {  content: "\F110"; }
+
+.mdi-link-detail:before { content: "\F339";}
+.mdi-send-contact:before{content: "\F1EE";}
+
+.mdi-facebook:before { content: "\F20C"; }
+.mdi-twitter:before {  content: "\F544"; }
+.mdi-google-plus:before {content: "\F2BD";}
+.mdi-youtube-play:before {  content: "\F5C3"; }
+
+.mdi-close:before {
+  content: "\F156";
+}
+
+.mdi-chevron-down:before {
+  content: "\F140";
+}
+
+.mdi-chevron-left:before {
+  content: "\F141";
+}
+
+.mdi-chevron-right:before {
+  content: "\F142";
+}
+
+.mdi-chevron-up:before {
+  content: "\F143";
+}
+
+.mdi-checkbox-multiple-marked-circle-outline:before {
+  content: "\F63E";
+}
+
+.mdi-window-close:before {
+  content: "\F5AD";
+}
+
+.mdi-cash-multiple:before {
+  content: "\F116";
+}
+
+.mdi-truck-fast:before {
+  content: "\F787";
+}
+.mdi-home-map-marker:before {
+  content: "\F5F8";
+}
+
+.mdi-home-outline:before {
+  content: "\F6A0";
+}
+
+.mdi-phone:before {
+  content: "\F3F2";
+}
+.mdi-account-outline:before {
+  content: "\F013";
+}
+
+.mdi-magnify:before {
+  content: "\F349";
+}
+
+.mdi-cart-outline:before {
+  content: "\F111";
+}
+
+.mdi-window-close:before {
+  content: "\F5AD";
+}
+.mdi-view-grid:before {
+  content: "\F570";
+}
+.mdi-play:before {
+  content: "\F40A";
+}
+.mdi-exit-to-app:before { 
+ content: "\F206";
+}
+.mdi-menu-down:before {
+  content: "\F35D";
+}
+
+.mdi-heart-outline:before{
+  content: "\f2d5";
+}
+
+.mdi-cart-plus:before{
+  content: "\f112"
+}
+
+.active .mdi-heart-outline {color: #fab60b !important;}
+
+/* .active .mdi-heart-outline::before{ content: "\f2d1"; } */
